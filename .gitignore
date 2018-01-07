@@ -1,0 +1,20 @@
+# generic files to ignore
+# backup files (*~) and vim swap file (.swp), MacOS dir file (.DS_Store)
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+# Editor directories and files
+.idea
+.vscode
+
+vars.local.sh
+hooks/*/secrets.yml
+hooks/*/secrets.yaml
+hooks/*/secrets.json
+
+container_data/*
+
+!container_data/.empty
